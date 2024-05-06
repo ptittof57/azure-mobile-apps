@@ -3,7 +3,7 @@
 
 using Microsoft.AspNetCore.Datasync;
 using Microsoft.EntityFrameworkCore;
-using TodoAppService.NET6.Db;
+using TodoAppService.net8.Db;
 
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");

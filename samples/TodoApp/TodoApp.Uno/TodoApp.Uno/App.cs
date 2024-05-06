@@ -6,7 +6,7 @@ namespace TodoApp.Uno
 
         protected override void OnLaunched(LaunchActivatedEventArgs args)
         {
-#if NET6_0_OR_GREATER && WINDOWS && !HAS_UNO
+#if net8_0_OR_GREATER && WINDOWS && !HAS_UNO
 		_window = new Window();
 #else
             _window = Microsoft.UI.Xaml.Window.Current;

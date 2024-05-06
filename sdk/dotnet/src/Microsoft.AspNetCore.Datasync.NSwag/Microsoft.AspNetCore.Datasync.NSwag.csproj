@@ -11,7 +11,7 @@
     <ProjectUrl>https://github.com/Azure/azure-mobile-apps</ProjectUrl>
     <RepositoryUrl>https://github.com/Azure/azure-mobile-apps</RepositoryUrl>
     <RootNamespace>Microsoft.AspNetCore.Datasync.NSwag</RootNamespace>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
 
   <Import Project="..\..\Shared.Build.props" />

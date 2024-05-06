@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31825.309
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApp.Data", "TodoApp.Data\TodoApp.Data.csproj", "{B2E15352-386F-4532-B8D5-8E705E26A0DC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoAppService.NET6", "TodoAppService.NET6\TodoAppService.NET6.csproj", "{DFCC3FE7-431D-4934-98CC-256454B04D32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoAppService.net8", "TodoAppService.net8\TodoAppService.net8.csproj", "{DFCC3FE7-431D-4934-98CC-256454B04D32}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.Android", "TodoApp.Android\TodoApp.Android.csproj", "{134FE895-B5EA-4970-849D-92006229B0AE}"
 EndProject

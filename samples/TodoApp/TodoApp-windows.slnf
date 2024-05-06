@@ -6,7 +6,7 @@
       "TodoApp.UWP\\TodoApp.UWP.csproj",
       "TodoApp.WinUI\\TodoApp.WinUI.csproj",
       "TodoApp.WPF\\TodoApp.WPF.csproj",
-      "TodoAppService.NET6\\TodoAppService.NET6.csproj"
+      "TodoAppService.net8\\TodoAppService.net8.csproj"
     ]
   }
 }

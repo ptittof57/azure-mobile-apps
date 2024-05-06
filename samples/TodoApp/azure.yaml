@@ -8,6 +8,6 @@ hooks:
     run: ./hooks/postdeploy.ps1
 services:
   syncserver:
-    project: ./TodoAppService.NET6
+    project: ./TodoAppService.net8
     language: csharp
     host: appservice

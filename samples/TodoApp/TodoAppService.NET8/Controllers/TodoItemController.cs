@@ -4,9 +4,9 @@
 using Microsoft.AspNetCore.Datasync;
 using Microsoft.AspNetCore.Datasync.EFCore;
 using Microsoft.AspNetCore.Mvc;
-using TodoAppService.NET6.Db;
+using TodoAppService.net8.Db;
 
-namespace TodoAppService.NET6.Controllers
+namespace TodoAppService.net8.Controllers
 {
     [Route("tables/todoitem")]
     public class TodoItemController : TableController<TodoItem>

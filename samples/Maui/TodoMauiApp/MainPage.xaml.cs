@@ -14,7 +14,7 @@ public partial class MainPage : ContentPage, IMVVMHelper
     {
         InitializeComponent();
 
-        Uri serviceUri = new("https://todoappservicenet620230203152451.azurewebsites.net");
+        Uri serviceUri = new("https://todoappservicenet820230203152451.azurewebsites.net");
         TodoService = new RemoteTodoService(serviceUri)
         {
             OfflineDb = FileSystem.CacheDirectory + "/offline.db"

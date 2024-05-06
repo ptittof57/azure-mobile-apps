@@ -4,7 +4,7 @@
 using Microsoft.AspNetCore.Datasync.EFCore;
 using System.ComponentModel.DataAnnotations;
 
-namespace TodoAppService.NET6.Db
+namespace TodoAppService.net8.Db
 {
     /// <summary>
     /// The fields in this class must match the fields in Models/TodoItem.cs

@@ -1,7 +1,7 @@
 ﻿<Project Sdk="MSBuild.Sdk.Extras/3.0.44">
 
 	<PropertyGroup>
-		<TargetFrameworks>net6.0;netstandard2.0</TargetFrameworks>
+		<TargetFrameworks>net8.0;netstandard2.0</TargetFrameworks>
 	</PropertyGroup>
 
 	<PropertyGroup>
@@ -31,11 +31,11 @@
 	</ItemGroup>
 	
 	<!-- .NET 6.0 Platform support -->
-	<ItemGroup Condition="$(TargetFramework.Equals('net6.0'))">
-		<Compile Include="Platforms\net6\*.cs" />
+	<ItemGroup Condition="$(TargetFramework.Equals('net8.0'))">
+		<Compile Include="Platforms\net8\*.cs" />
 	</ItemGroup>
 	
-	<PropertyGroup Condition="$(TargetFramework.StartsWith('net6.0'))">
+	<PropertyGroup Condition="$(TargetFramework.StartsWith('net8.0'))">
 		<DefineConstants>$(DefineConstants);HAS_DATEONLY;HAS_TIMEONLY</DefineConstants>
 	</PropertyGroup>
 

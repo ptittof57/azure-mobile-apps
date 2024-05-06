@@ -3,7 +3,7 @@
 
 using Microsoft.EntityFrameworkCore;
 
-namespace TodoAppService.NET6.Db
+namespace TodoAppService.net8.Db
 {
     public class AppDbContext : DbContext
     {
